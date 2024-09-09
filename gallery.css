@@ -1,0 +1,633 @@
+
+.one{
+    background-color: black;
+    height: 600vh;
+    /* width: fit-content; */
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-rows: 1fr 2fr 3fr 2fr 2fr 1fr 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr 2fr 1fr 2fr ;
+
+}
+.seventh{
+    background-image: url(assets/Screenshot_20240704-200210.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row-start: 8;
+    grid-row-end: 11;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+    font-size: 50px;
+    filter: blur(10px);
+}
+.seventh:hover{
+    filter: blur(0px);
+}
+.eight{
+    background-image: url(assets/Screenshot_20240721-185909.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row-start:8 ;
+    grid-row-end: 10;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+    font-size: 50px;
+    filter: blur(10px);
+}
+.eight:hover{
+    filter: blur(0px);
+}
+.nine{
+    background-image: url(assets/Screenshot_20240704-071654.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row-start:10;
+    grid-row-end:12;
+    grid-column-start:3 ;
+    grid-column-end: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+    font-size: 50px;
+    filter: blur(10px);
+}
+.nine:hover{
+    filter: blur(0px);
+}
+
+
+.ten{
+    background-image: url(assets/Screenshot_20240706-074816.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row-start:10 ;
+    grid-row-end:13 ;
+    grid-column-start:2 ;
+    grid-column-end: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+    font-size: 50px;
+    filter: blur(10px);
+}
+.ten:hover{    
+    filter: blur(0px);
+}
+
+    .eleven{
+        background-image: url(assets/Screenshot_20240704-071652.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-row-start:11 ;
+        grid-row-end:14 ;
+        grid-column-start:1 ;
+        grid-column-end:2 ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: wheat;
+        font-size: 50px;
+        filter: blur(10px);
+    }
+.eleven:hover{
+    filter: blur(0px);
+}
+.twelve{
+    background-image: url(assets/Screenshot_20240704-200210.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: wheat;
+        font-size: 50px;
+        filter: blur(10px);
+}
+.twelve:hover{
+    filter: blur(0px);
+}
+.thirteen{
+    background-image: url(assets/Screenshot_20240704-063457.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-row-start:13 ;
+        grid-row-end:16 ;
+        grid-column-start:3 ;
+        grid-column-end:4 ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: wheat;
+        font-size: 50px;
+        filter: blur(10px);
+        
+}
+.thirteen:hover{
+    filter: blur(0px);
+}
+.fourteen{
+    background-image: url(assets/Screenshot_20240704-071726.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-row-start:13;
+        grid-row-end:15 ;
+        grid-column-start:2 ;
+        grid-column-end:3 ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: wheat;
+        font-size: 50px;
+        filter: blur(10px);
+}
+.fourteen:hover{
+    filter: blur(0px);
+}
+.fifteen{
+    background-image: url(assets/Rectangle\ 66\ \(2\).png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-row-start:15;
+        grid-row-end:16;
+        grid-column-start: 1;
+        grid-column-end:3 ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: wheat;
+        font-size: 50px;
+        filter: blur(10px);
+}
+.fifteen:hover{
+    filter: blur(0px);
+}
+.sixteen{
+    background-image: url(assets/Screenshot_20240704-200301.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row-start:14;
+    grid-row-end:15;
+    grid-column-start: 1;
+    grid-column-end:2 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+    font-size: 50px;
+    filter: blur(10px); 
+}
+.sixteen:hover{
+    filter: blur(0px);
+}
+.seventeen{
+    background-image: url(assets/Rectangle\ 68\ \(2\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+    font-size: 50px;
+    filter: blur(10px); 
+}
+.seventeen:hover{
+filter: blur(0px);
+}
+.eighteen{
+    background-image: url(assets/Rectangle\ 39.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row-start:16;
+    grid-row-end:17;
+    grid-column-start: 2;
+    grid-column-end:4 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+    font-size: 50px;
+    filter: blur(10px); 
+}
+.eighteen:hover{
+    filter:blur(0px) ;
+}
+.ninteen{
+    background-image: url(assets/Rectangle\ 11.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row-start:17;
+    grid-row-end:19;
+    grid-column-start:1 ;
+    grid-column-end:2 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+    font-size: 50px;
+    filter: blur(10px);   
+}
+.ninteen:hover{
+    filter: blur(0px);
+
+}
+.twenty{
+    background-image: url(assets/Screenshot_20240704-071700.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row-start:17;
+    grid-row-end:19;
+    grid-column-start:2 ;
+    grid-column-end:4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+    font-size: 50px;
+    filter: blur(10px);
+}
+.twenty:hover{
+    filter: blur(0px);
+}
+.g{
+    position: relative;
+}
+.g::before{
+    content: "";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    transition: 3s;
+}
+.h::before{
+    content: "";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    transition: 3s;
+}
+.i::before{
+    content: "";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    transition: 3s;
+}
+.j::before{
+    content: "";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    transition: 3s;
+}
+.m::before{
+    content: "";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    transition: 3s;
+}
+.n::before{
+    content: "";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    transition: 3s;
+}
+.o::before{
+    content: "";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    transition: 3s;
+}
+.q::before{
+    content: "";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    transition: 3s;
+}
+.r::before{
+    content: "";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    transition: 3s;
+}
+.s::before{
+    content: "";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    transition: 3s;
+}
+.t::before{
+    content: "";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    transition: 3s;
+}
+.u::before{
+    content: "";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    transition: 3s;
+}
+.v::before{
+    content: "";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    transition: 3s;
+}
+.w::before{
+    content: "";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    transition: 3s;
+}
+.g::after{
+    content: "";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    right: 0px;
+    bottom: 10px;
+    transition: 3s;
+}
+.l:hover{
+    color: blue;
+}
+
+footer, img{
+  height: 160px;
+  width: 150px;
+  
+}
+.two{
+    background-color: black;
+height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    color: burlywood;
+    font-size: 40px;
+    
+    
+
+    
+}
+
+
+.contact{
+    color: white;
+}
+footer{
+padding-top: 40px;
+    text-align: center;
+    background-color: black;
+    height: 60vh;
+    font-size: 20px;
+    width: 100%;
+    
+    
+    
+}
+.fa-brands{
+    color: antiquewhite;
+    
+
+
+
+
+
+}
+.first{
+    background-image: url(assets/Screenshot_20240704-071717.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-end: 3;
+    grid-column-start:2 ;
+    
+    filter: blur(10px);
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 50px;
+color: wheat;
+}
+.first:hover{
+
+ filter:blur(0px)
+ 
+}
+.second{
+    background-image: url(assets/Screenshot_20240704-200219.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    filter: blur(10px);
+
+color: wheat;
+
+    
+    grid-column-start: 3;
+    grid-column-end: 4;
+    
+    grid-row-start: 1;
+    grid-row-end: 4;
+    display: flex;
+justify-content: center;
+align-items: center;
+font-size: 50px;
+filter: blur(10px);
+}
+.second:hover{
+ filter: blur(0px);   
+}
+.third{
+    background-image: url(assets/Screenshot_20240704-071637.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-column-start: 2;
+    grid-column-end:3 ;
+    grid-row-start:1;
+    grid-row-end:3 ;
+    display: flex;
+color: wheat;
+
+justify-content: center;
+align-items: center;
+font-size: 50px;
+filter: blur(10px);
+}
+.third:hover{
+    filter: blur(0px);
+}
+.fourth{
+    background-image: url(assets/Screenshot_20240704-071648.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-column-start:1;
+    grid-column-end: 2;
+    grid-row-start:1;
+    grid-row-end:5;display: flex;
+justify-content: center;
+align-items: center;
+font-size: 50px;
+display: flex;
+color: wheat;
+
+justify-content: center;
+align-items: center;
+font-size: 50px;
+filter: blur(10px);
+}
+.fourth:hover{
+    filter: blur(0px);
+}
+.fifth{
+    background-image: url(assets/Screenshot_20240704-071654.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-column-start:3 ;
+    grid-column-end:4 ;
+    grid-row-start:4 ;
+    grid-row-end: 8;
+    display: flex;
+justify-content: center;
+align-items: center;
+color: wheat;
+filter: blur(10px);
+font-size: 50px;
+}
+.fifth:hover{
+    filter: blur(0px);
+}
+
+    
+.a{
+    position: relative;
+    line-height: 2;
+}
+.a::before{
+    content: "";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    transition: 3s;
+}
+.a::after{
+    content: "";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    right: 0px;
+    bottom: 10px;
+    transition: 3s;
+}
+
+.sixth{
+    background-image: url(assets/Screenshot_20240704-071724.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-column-start:1 ;
+    grid-column-end:3;
+    grid-row-start: 5;
+    grid-row-end:8;
+    display: flex;
+justify-content: center;
+color: wheat;
+filter: blur(10px);
+align-items: center;
+font-size: 50px;
+
+}
+.sixth:hover{
+    filter: blur(0px);
+
+}
+/* .a::after{
+    content: "";
+    right: 0;
+    bottom: 0;
+transition: 3s;
+background-color: black;
+}
+::before{
+    content: "";
+    background-color: black;
+    left: 0;
+    bottom: 0;
+    transition: 3s;
+/* } */
+.a:hover:after,.a:hover:before{
+    width: 250px;
+
+}
+
+
+
